@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.art-piece {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.piece1 {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.piece2 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.piece3 {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+.piece4 {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.piece5 {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+.piece6{
+    background: linear-gradient(135deg, #00c6ff, #4CAF50);
+}
+.piece7 {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.piece8 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.piece9 {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+.piece10 {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+img{
+    width: 100%;
+    height: 200px;
+    
+}
+/* Optional: Add hover effects */
+.art-piece:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
